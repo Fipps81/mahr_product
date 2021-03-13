@@ -1,9 +1,10 @@
 public class Company;
 {
 	private ArrayList<Product> products;
-	
-	public Company()
+	private String name;
+	public Company(String name)
 	{
-		products = new ArrayList<Product>();	
+		products = new ArrayList<Product>();
+		setName("IBM");	
 	}
 }
